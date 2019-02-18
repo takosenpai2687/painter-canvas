@@ -57,6 +57,7 @@ p {
   border: 2px solid #cccccc;
   height: 50px;
   width: 50px;
+  cursor: pointer;
 }
 .slide-container {
   margin: 20px 5px 5px 5px;
