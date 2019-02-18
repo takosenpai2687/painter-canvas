@@ -13,6 +13,9 @@ Implemented features:
   color picker  
   thickness picker  
   
+How to use:
+  straight open index.html and have fun :)
+  
 html简单画图应用，使用canvas和jQuery制作（原生js为主）。  
 
 在线实例：https://jeremy9863.github.io/painter-canvas/  
@@ -27,5 +30,5 @@ html简单画图应用，使用canvas和jQuery制作（原生js为主）。
   调整粗细  
   
 使用方法：  
-  下载后直接打开index.html  
+  index.html打开即食 :)
   
