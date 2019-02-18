@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Painter</title>
+    <link href="./css/reset.css" rel="stylesheet" />
+    <link href="./css/style.css" rel="stylesheet" />
+    <script src="js/jquery.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      <span>Painter</span>
+    </div>
+    <div class="content-wrapper">
+      <div class="toolbar">
+        <ul class="tool-list">
+          <li class="mode" value="0">
+            pencil
+          </li>
+          <li class="mode" value="1" id="rect">rect</li>
+          <li class="mode" value="2" id="ellipse">ellipse</li>
+          <li class="mode" value="3" id="line">line</li>
+          <li class="color" value="#ff0000"></li>
+          <li class="slide-container">
+            <p>Thickness</p>
+            <input type="range" min="1" max="10" step="1" class="slider" />
+            <p id="thickness"></p>
+          </li>
+          <li>
+            <button id="btn-undo">Undo</button>
+          </li>
+          <li>
+            <button id="btn-redo">Redo</button>
+          </li>
+        </ul>
+      </div>
+      <div class="canvas-container">
+        <canvas id="controller"></canvas>
+        <canvas id="viewer"></canvas>
+        <div class="color-container">
+          <canvas id="color-picker"></canvas>
+          <div class="color-options">
+            <div class="color-preview">
+              <div class="color-icon"></div>
+            </div>
+            <div class="color-slide-container">
+              <p>Multiplier</p>
+              <input
+                type="range"
+                min="0"
+                max="1"
+                step="0.01"
+                class="slider-color"
+                id="color-mult"
+                value="1"
+              />
+              <p id="colorMult"></p>
+            </div>
+            <div class="color-btn-container">
+              <button id="btn-setColor">Confirm</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer"></div>
+  </body>
+  <script src="./js/painter.js"></script>
+  <script src="./js/colorpicker.js"></script>
+  <script src="./js/index.js"></script>
+</html>
