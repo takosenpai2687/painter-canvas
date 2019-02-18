@@ -2,7 +2,7 @@
 
 A painter web app based on canvas and jquery (Mainly vanilla js).
 
-Live Demo: ...........
+Live Demo: https://jeremy9863.github.io/painter-canvas/
 
 Implemented features:
   free hand drawing
@@ -15,7 +15,7 @@ Implemented features:
 
 html简单画图应用，使用canvas和jQuery制作（原生js为主）。
 
-在线实例：。。。。。。
+在线实例：https://jeremy9863.github.io/painter-canvas/
 
 实现功能如下：
   自由画笔
