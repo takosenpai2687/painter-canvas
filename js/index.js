@@ -93,7 +93,6 @@ function restoreCtx() {
 // retrieve hex color value given a css rgba string
 function rgb2hex(rgb) {
   rgb = rgb.match(/rgb\((\d+), (\d+), (\d+)\)/i);
-  console.log(rgb);
   function hex(x) {
     return ('0' + parseInt(x).toString(16)).slice(-2);
   }
