@@ -17,6 +17,10 @@ Implemented features:
 How to use:  
   straight open index.html and have fun :)  
   
+Known issues:  
+  bugs on window resize  
+  mobile device compatibility   
+  
 html简单画图应用，使用canvas和jQuery制作（原生js为主）。  
 
 在线实例：https://jeremy9863.github.io/painter-canvas/  
