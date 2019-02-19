@@ -74,6 +74,7 @@ function resize() {
   // resize canvas if applicable
   if (painter) {
     painter.resize();
+    painter.reDraw(painter.undoStack);
   }
   // resize DOM elements
   $('.content-wrapper').css('height', `${window.innerHeight - 30 * 2}px`);
